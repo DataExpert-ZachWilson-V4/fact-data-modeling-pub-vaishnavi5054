@@ -1,3 +1,4 @@
+--Write a query to incrementally populate the hosts_cumulated table
 INSERT INTO
   vaishnaviaienampudi83291.hosts_cumulated
 WITH

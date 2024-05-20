@@ -1,4 +1,5 @@
 -- DDL statement to create a cumulating user activity table by device.
+
 CREATE OR REPLACE TABLE vaishnaviaienampudi83291.user_devices_cumulated (
   user_id BIGINT, -- id of the user
   browser_type varchar, --browser from which user logged in

@@ -1,3 +1,5 @@
+--incremental query to populate the table
+
 INSERT INTO
   vaishnaviaienampudi83291.user_devices_cumulated
 WITH
