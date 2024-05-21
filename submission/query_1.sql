@@ -1,4 +1,5 @@
 --de-duplicate the nba_game_details table 
+
 with unique_records as (
 select *, row_number() over (partition by game_id, team_id, player_id order by dim_game_date desc)rn 
 from  -- using row_number() function for combination of each game_id, team_id, player_id. Using latest dim_game_date as the 1st record.

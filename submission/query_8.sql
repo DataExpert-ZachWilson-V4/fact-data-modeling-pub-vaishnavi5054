@@ -1,3 +1,4 @@
+--incrementally populate the host_activity_reduced
 INSERT INTO vaishnaviaienampudi83291.host_activity_reduced
 WITH
   yesterday AS ( -- get yesterday's data from host_activity_reduced table

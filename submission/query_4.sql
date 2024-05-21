@@ -1,4 +1,5 @@
 --convert the date list implementation into the base-2 integer datelist
+
 WITH
   today AS ( --extract today's data from user_devices_cumulated table
     SELECT
